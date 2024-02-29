@@ -118,6 +118,9 @@ public class Seller implements Serializable{
             +"\nBase Salary : "
             +baseSalary
             +"\nDepartment : "
-            +department;
+            +"\n  Id - "
+            +department.getId()
+            +"\n  Name - "
+            +department.getName();
   }
 }
