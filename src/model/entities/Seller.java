@@ -116,7 +116,7 @@ public class Seller implements Serializable{
             +"\nBirth Date : "
             +birthDate
             +"\nBase Salary : "
-            +baseSalary
+            +String.format("%.2f", baseSalary)
             +"\nDepartment : "
             +"\n  Id - "
             +department.getId()
